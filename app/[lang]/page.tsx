@@ -75,7 +75,7 @@ function Hero({ d, lang }: { d: Dict; lang: Locale }) {
               <path d="M200 654h1100M200 668h1100" />
             </g>
           </svg>
-          <Mark className="absolute end-[6%] top-[14%] hidden h-auto w-[34vw] max-w-[520px] text-gold/45 lg:block" strokeWidth={1.1} />
+          <Mark className="absolute end-[6%] top-[14%] hidden h-auto w-[30vw] max-w-[480px] text-gold/45 xl:block" strokeWidth={1.1} />
           <p className="caps absolute end-5 top-5 text-[0.6875rem] text-cream/55 md:end-10">{d.hero.photoPending}</p>
         </div>
       )}
