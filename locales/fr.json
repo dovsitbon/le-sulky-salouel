@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "title": "Bar, tabac, PMU et point relais à Salouël, route de Rouen | Le Sulky",
+    "description": "Le Sulky, bar PMU, tabac et point relais colis au 23 route de Rouen à Salouël, près d'Amiens. Ouvert dès 6 h du lundi au samedi, le dimanche de 7 h à 14 h. Noté 4,6/5 sur Google.",
+    "ogAlt": "Le Sulky, bar, tabac, PMU et point relais à Salouël"
+  },
+  "intro": { "skip": "Passer", "tagline": "BAR · TABAC · PMU" },
+  "a11y": { "skip": "Aller au contenu", "close": "Fermer le message", "menu": "Menu", "closeMenu": "Fermer le menu", "lang": "Langue", "newTab": "(nouvel onglet)", "logoHome": "Le Sulky, accueil" },
+  "nav": { "services": "Services", "events": "Événements", "infos": "Infos", "call": "Appeler", "directions": "Itinéraire", "prices": "Tarifs", "contact": "Contact" },
+  "hero": {
+    "kicker": "BAR · TABAC · PMU · POINT RELAIS · SALOUËL",
+    "title": "Le café, les courses et le sourire.",
+    "sub": "Votre bar-tabac du 23 route de Rouen. On vous sert dès 6 h du lundi au samedi, et le dimanche matin jusqu'à 14 h.",
+    "ctaDirections": "Itinéraire",
+    "ctaServices": "Nos services",
+    "rating": "{value}/5 sur {count} avis Google",
+    "ratingLink": "Lire les avis sur Google",
+    "photoPending": "Photo de la façade à venir"
+  },
+  "status": {
+    "open": "Ouvert maintenant, jusqu'à {time}",
+    "closedToday": "Fermé, ouvre aujourd'hui à {time}",
+    "closedTomorrow": "Fermé, ouvre demain à {time}",
+    "closedNext": "Fermé, ouvre {day} à {time}",
+    "loading": "Horaires du jour"
+  },
+  "tiles": {
+    "title": "Ce que vous trouvez au Sulky",
+    "items": { "bar": "Bar & café", "tabac": "Tabac", "pmu": "PMU", "fdj": "FDJ", "colis": "Point relais colis", "presse": "Presse & recharges" }
+  },
+  "strip": {
+    "title": "L'essentiel",
+    "items": [
+      { "icon": "sunrise", "title": "Ouvert dès 6 h", "text": "Du lundi au samedi, et le dimanche de 7 h à 14 h." },
+      { "icon": "parcel", "title": "Point relais", "text": "Retrait et dépôt de vos colis aux heures d'ouverture." },
+      { "icon": "horseshoe", "title": "PMU et FDJ", "text": "Courses, Loto, EuroMillions et jeux à gratter." },
+      { "icon": "parking", "title": "Stationnement", "text": "À remplir : où se garer devant ou près du bar." }
+    ]
+  },
+  "services": {
+    "kicker": "Services",
+    "title": "Tout ce qui rend service, au même comptoir",
+    "intro": "Un café en passant, votre tabac, un ticket pour le Quinté ou le colis qui vous attend : on s'occupe de tout, sans vous faire attendre.",
+    "photo": "Photo à venir",
+    "items": {
+      "bar": { "name": "Bar & café", "text": "Le premier café de la journée dès 6 h, au comptoir. Boissons chaudes et fraîches toute la journée, dans une ambiance de bar de quartier." },
+      "tabac": { "name": "Tabac", "text": "Cigarettes, tabac à rouler, cigares et accessoires. Un débit de tabac de proximité, avec du conseil quand vous en avez besoin." },
+      "pmu": { "name": "PMU", "text": "Les courses du jour au comptoir et sur l'écran du bar. Le programme, les partants, et un coin tranquille pour suivre l'arrivée." },
+      "fdj": { "name": "FDJ", "text": "Loto, EuroMillions, jeux à gratter et paris sportifs : vous jouez et vérifiez vos tickets directement au comptoir." },
+      "colis": { "name": "Point relais colis", "text": "Vos colis vous attendent au bar, pratique sur le chemin du travail. Dépôt et retour de colis aussi, aux heures d'ouverture." },
+      "presse": { "name": "Presse & recharges", "text": "Journaux, magazines et recharges téléphoniques. À remplir : la liste exacte avec le gérant." }
+    },
+    "pricesCta": "Voir les tarifs"
+  },
+  "events": {
+    "kicker": "Événements",
+    "title": "Les courses et les matchs à ne pas manquer",
+    "intro": "Ce qu'on suit au bar et ce qui se joue au comptoir. Le programme est mis à jour au fil des semaines.",
+    "recurring": "Toute l'année",
+    "kinds": { "course": "Course", "match": "Match", "soiree": "Soirée" },
+    "empty": "Le prochain programme arrive bientôt. Passez nous voir ou appelez-nous pour savoir ce qui est diffusé."
+  },
+  "blocks": [
+    { "id": "cafe", "photo": "comptoir", "kicker": "Le matin", "title": "Le café du matin, avant tout le monde", "text": "Les volets se lèvent à 6 h. Un café serré, le journal, deux mots avec le patron, et la journée peut commencer. C'est sur la route de Rouen, en sortant d'Amiens.", "cta": "Itinéraire" },
+    { "id": "colis", "photo": "colis", "kicker": "Point relais", "title": "Votre colis, sans faire la queue", "text": "On vous remet votre colis en quelques secondes, avec votre code de retrait et une pièce d'identité. Ouvert tôt le matin et jusqu'à 20 h en semaine : vous passez quand ça vous arrange.", "cta": "Horaires" },
+    { "id": "courses", "photo": "courses", "kicker": "Courses & matchs", "title": "Les courses et les matchs, entre habitués", "text": "Le Quinté+ du jour, les grandes réunions de trot, les matchs qui comptent : on les suit ensemble, au comptoir.", "cta": "Voir les événements" }
+  ],
+  "reviews": {
+    "kicker": "Avis",
+    "title": "Ce que disent les clients",
+    "text": "Le Sulky est noté {value}/5 sur {count} avis Google. Les vrais avis de nos clients seront publiés ici, avec leur accord.",
+    "slot": "Avis client à venir",
+    "cta": "Lire les avis sur Google",
+    "checked": "Note relevée le {date}"
+  },
+  "infos": {
+    "kicker": "Infos pratiques",
+    "title": "Nous trouver",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "access": "Accès",
+    "accessText": "Sur la route de Rouen à Salouël, à quelques minutes du centre d'Amiens en voiture. À remplir : arrêt de bus le plus proche.",
+    "parking": "Stationnement",
+    "parkingText": "À remplir : places devant le bar ou à proximité.",
+    "phone": "Téléphone",
+    "directions": "Itinéraire",
+    "mapTitle": "Le Sulky sur la carte, 23 route de Rouen, Salouël",
+    "mapButton": "Afficher la carte",
+    "mapNote": "La carte est fournie par Google Maps.",
+    "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"],
+    "range": "{from} au {to}",
+    "closed": "Fermé",
+    "toConfirm": "Horaires des jours fériés annoncés en haut du site."
+  },
+  "faq": {
+    "kicker": "Questions fréquentes",
+    "title": "Avant de passer",
+    "items": [
+      { "q": "À quelle heure ouvrez-vous ?", "a": "Du lundi au samedi de 6 h à 20 h, et le dimanche de 7 h à 14 h. Les jours fériés et les fermetures exceptionnelles sont annoncés dans le bandeau en haut du site." },
+      { "q": "Comment récupérer mon colis ?", "a": "Présentez-vous au comptoir avec le code de retrait reçu par SMS ou par e-mail et une pièce d'identité. Si quelqu'un vient à votre place, il lui faut le code, sa pièce d'identité et, selon le transporteur, une procuration." },
+      { "q": "Combien de temps mon colis reste-t-il au relais ?", "a": "Le délai de garde dépend du transporteur et figure dans votre message de retrait. Passé ce délai, le colis repart chez l'expéditeur : en cas de doute, appelez-nous." },
+      { "q": "Peut-on payer par carte ?", "a": "Oui, la carte bancaire est acceptée. Pour certains achats réglementés (tabac, jeux), demandez au comptoir s'il y a un montant minimum." },
+      { "q": "Quels jeux peut-on jouer chez vous ?", "a": "Les paris hippiques PMU et les jeux FDJ : Loto, EuroMillions, jeux à gratter et paris sportifs. Les jeux d'argent sont interdits aux mineurs." },
+      { "q": "Peut-on réserver le bar pour un pot ou un anniversaire ?", "a": "Parlons-en. Écrivez-nous avec le formulaire de contact ou appelez le 03 22 51 75 50, et on regarde ensemble ce qui est possible." }
+    ]
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Une question ? Écrivez-nous",
+    "intro": "Pour un colis, un événement ou un pot entre amis, laissez-nous un message. Le plus rapide reste de nous appeler.",
+    "call": "Appeler le 03 22 51 75 50",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "subject": "Votre demande",
+    "subjects": { "question": "Une question", "privatisation": "Pot ou privatisation", "colis": "Un colis", "autre": "Autre" },
+    "message": "Message",
+    "send": "Envoyer le message",
+    "sending": "Envoi…",
+    "ok": "Merci, votre message est bien parti. On vous répond au plus vite.",
+    "okNoMail": "Votre message est noté, mais l'envoi par e-mail n'est pas encore activé. Pour une réponse rapide, appelez-nous au 03 22 51 75 50.",
+    "error": "Le message n'a pas pu partir. Vérifiez les champs ou appelez-nous au 03 22 51 75 50.",
+    "required": "obligatoire",
+    "invalidPhone": "Numéro de téléphone incomplet",
+    "invalidEmail": "Adresse e-mail incomplète",
+    "privacy": "Vos coordonnées servent uniquement à vous répondre. Elles ne sont ni conservées sur ce site ni transmises à qui que ce soit.",
+    "mail": { "subject": "Message du site", "title": "Nouveau message depuis le site", "name": "Nom", "phone": "Téléphone", "email": "E-mail", "subject2": "Demande", "message": "Message", "lang": "Langue du client" }
+  },
+  "footer": {
+    "tagline": "Bar, tabac, PMU et point relais à Salouël, route de Rouen.",
+    "pages": "Pages",
+    "legal": "Mentions légales",
+    "rights": "Le Sulky",
+    "hours": "Horaires"
+  },
+  "photo": { "pending": "Photo à venir", "slots": { "hero": "Façade ou comptoir", "facade": "La façade", "comptoir": "Le comptoir le matin", "bar": "Le bar", "tabac": "Le linéaire tabac", "pmu": "L'écran des courses", "fdj": "Le coin jeux", "colis": "Le point relais", "presse": "La presse", "courses": "Les courses à l'écran", "equipe": "L'équipe" } },
+  "alt": {
+    "hero": "La façade du Sulky, 23 route de Rouen à Salouël",
+    "facade": "La façade du bar-tabac Le Sulky à Salouël",
+    "comptoir": "Le comptoir du Sulky le matin",
+    "bar": "Le bar du Sulky",
+    "tabac": "Le rayon tabac du Sulky",
+    "pmu": "L'écran des courses PMU au Sulky",
+    "fdj": "Le coin jeux FDJ au Sulky",
+    "colis": "Le point relais colis du Sulky",
+    "presse": "La presse au Sulky",
+    "courses": "Une course de trot sur l'écran du bar",
+    "equipe": "L'équipe du Sulky au comptoir"
+  },
+  "tarifs": {
+    "intro": "Les prix du comptoir, pour savoir à quoi vous attendre. Quand le prix varie, on indique « à partir de ».",
+    "from": "à partir de",
+    "atCounter": "prix au comptoir",
+    "free": "gratuit",
+    "note": "Prix TTC, susceptibles d'évoluer. Le prix du tabac est fixé par l'État et affiché en boutique. Les jeux d'argent sont interdits aux mineurs.",
+    "categories": { "boissons": "Au bar", "jeux": "Jeux", "relais": "Point relais", "tabac": "Tabac" },
+    "items": {
+      "expresso": { "name": "Café expresso", "desc": "" },
+      "creme": { "name": "Café crème", "desc": "" },
+      "chocolat": { "name": "Chocolat chaud", "desc": "" },
+      "the": { "name": "Thé ou infusion", "desc": "" },
+      "demi": { "name": "Demi pression", "desc": "" },
+      "soft": { "name": "Softs et jus", "desc": "" },
+      "loto": { "name": "Loto", "desc": "une grille" },
+      "euromillions": { "name": "EuroMillions", "desc": "une grille" },
+      "grattage": { "name": "Jeux à gratter", "desc": "selon le jeu" },
+      "pmu": { "name": "Paris hippiques PMU", "desc": "selon le pari" },
+      "retrait": { "name": "Retrait d'un colis", "desc": "avec votre code et une pièce d'identité" },
+      "depot": { "name": "Dépôt d'un colis", "desc": "étiquette payée en ligne chez le transporteur" },
+      "tabacPrix": { "name": "Tabac et cigarettes", "desc": "prix fixés par l'État" }
+    }
+  },
+  "pages": {
+    "bar": {
+      "title": "Bar tabac à Salouël",
+      "metaTitle": "Bar tabac à Salouël, route de Rouen, ouvert dès 6 h | Le Sulky",
+      "description": "Le Sulky, votre bar-tabac à Salouël au 23 route de Rouen : café dès 6 h, tabac, PMU, FDJ et point relais colis. À quelques minutes d'Amiens.",
+      "kicker": "Salouël · route de Rouen",
+      "h1": "Votre bar-tabac à Salouël",
+      "intro": "Au 23 route de Rouen, Le Sulky est le bar-tabac de proximité de Salouël et des habitants du sud-ouest d'Amiens. On ouvre à 6 h du lundi au samedi pour le premier café, et le dimanche matin jusqu'à 14 h.",
+      "sections": [
+        { "title": "Un vrai bar de quartier", "text": "Ici, on se dit bonjour. Le patron et le gérant connaissent les habitudes de chacun : le café serré du matin, le journal mis de côté, le ticket du Quinté. Un commerce de proximité comme on les aime, simple et chaleureux." },
+        { "title": "Tabac, jeux et services", "text": "Tabac et accessoires, paris hippiques PMU, jeux FDJ, presse et recharges, et un point relais pour vos colis. Tout au même comptoir, sans détour." },
+        { "title": "Facile d'accès depuis Amiens", "text": "Le Sulky est sur la route de Rouen, l'axe qui relie Amiens à Salouël : pratique sur le trajet du travail, à l'aller comme au retour." }
+      ],
+      "cta": "Itinéraire"
+    },
+    "relais": {
+      "title": "Point relais colis à Salouël",
+      "metaTitle": "Point relais colis à Salouël, ouvert dès 6 h | Le Sulky",
+      "description": "Retirez et déposez vos colis au Sulky, point relais au 23 route de Rouen à Salouël. Ouvert dès 6 h du lundi au samedi et le dimanche matin.",
+      "kicker": "Point relais · Salouël",
+      "h1": "Votre point relais colis à Salouël",
+      "intro": "Choisissez Le Sulky comme point de retrait lors de votre commande en ligne : votre colis vous attend au 23 route de Rouen, de 6 h à 20 h du lundi au samedi et de 7 h à 14 h le dimanche.",
+      "sections": [
+        { "title": "Retirer un colis", "text": "Dès que vous recevez le message de mise à disposition, passez avec votre code de retrait et une pièce d'identité. On vous remet le colis en quelques secondes." },
+        { "title": "Déposer ou retourner un colis", "text": "Préparez votre colis et son étiquette payée en ligne chez le transporteur, puis déposez-le au comptoir. Gardez bien la preuve de dépôt." },
+        { "title": "Quels transporteurs ?", "text": "À remplir : la liste des réseaux de colis acceptés au Sulky. En attendant, appelez-nous pour vérifier avant de choisir le relais." }
+      ],
+      "cta": "Itinéraire"
+    },
+    "tarifs": {
+      "title": "Tarifs",
+      "metaTitle": "Tarifs du bar, des jeux et du point relais | Le Sulky, Salouël",
+      "description": "Les prix du Sulky à Salouël : café, boissons, jeux FDJ et PMU, point relais colis. Prix au comptoir, à partir de.",
+      "kicker": "Tarifs",
+      "h1": "Nos tarifs"
+    },
+    "legal": {
+      "title": "Mentions légales",
+      "metaTitle": "Mentions légales | Le Sulky, Salouël",
+      "description": "Mentions légales du site de Le Sulky, bar-tabac à Salouël.",
+      "kicker": "Informations",
+      "h1": "Mentions légales",
+      "editor": "Éditeur du site",
+      "company": "Raison sociale",
+      "siret": "SIRET",
+      "director": "Directeur de la publication",
+      "host": "Hébergeur",
+      "data": "Données personnelles",
+      "dataText": "Le formulaire de contact transmet votre message par e-mail au Sulky. Vos coordonnées servent uniquement à vous répondre ; elles ne sont pas conservées sur ce site. Vous pouvez demander leur suppression en appelant le bar.",
+      "cookies": "Cookies",
+      "cookiesText": "Ce site n'utilise aucun cookie de suivi ni de publicité. Un cookie technique retient seulement la langue choisie. La carte Google Maps n'est chargée que si vous cliquez pour l'afficher.",
+      "photos": "Photos",
+      "photosText": "Les photos du site représentent le commerce et sont la propriété du Sulky.",
+      "toFill": "à remplir"
+    }
+  }
+}

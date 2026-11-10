@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 170" role="img" aria-label="Le Sulky">
+<g transform="translate(80 0)"><g fill="none" stroke="#1F4D3A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M70 35C80 31 100 33 112 32C118 27 124 20 129 14C131 12 134 12 135.5 14.5L146 27C147.5 29.5 145.5 31.5 142.5 31L136 30C131 33 127 37 124 41C122 45 118 48 112 48L84 48C76 48 70 46 67 42C65 39 66 36 70 35Z"/><path d="M130.5 13L128.5 6.5L134 11"/><path d="M122 46L133 56L140 64M116 48L118 58L113 66M86 48L92 58L87 66M72 45L62 56L56 64"/><path d="M67 37C61 36.5 57 40 55.5 46"/><path d="M34 48L112 42.5"/><path d="M44 58A16 16 0 1 1 12 58A16 16 0 1 1 44 58ZM28 42V74M12 58H44M17 47L39 69M39 47L17 69"/><path d="M34 46L38 32M38 34L54 28L142 29.5M35 46L47 49"/><path d="M41 25.5A4.5 4.5 0 1 1 32 25.5A4.5 4.5 0 1 1 41 25.5Z"/></g></g>
+<text x="160" y="128" text-anchor="middle" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="40" letter-spacing="7" fill="#181818">LE SULKY</text>
+<path d="M118 146h84" stroke="#C9A14E" stroke-width="1"/><path d="M118 151h84" stroke="#C9A14E" stroke-width="1"/>
+<text x="160" y="166" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" letter-spacing="3.5" fill="#B3261E">BAR · TABAC · PMU</text>
+</svg>

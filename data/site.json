@@ -1,0 +1,16 @@
+{
+  "name": "Le Sulky",
+  "url": "https://le-sulky-salouel.vercel.app",
+  "phone": "03 22 51 75 50",
+  "phoneIntl": "+33322517550",
+  "whatsapp": "",
+  "email": "",
+  "address": { "street": "23 route de Rouen", "postalCode": "80480", "city": "Salouël", "region": "Hauts-de-France", "country": "FR" },
+  "geo": { "lat": 49.8706, "lng": 2.2470, "note": "coordonnées approximatives, à vérifier sur Google Maps" },
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=Le+Sulky+23+route+de+Rouen+80480+Salou%C3%ABl",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Sulky+23+route+de+Rouen+80480+Salou%C3%ABl",
+  "mapsEmbed": "https://www.google.com/maps?q=Le+Sulky,+23+route+de+Rouen,+80480+Salou%C3%ABl&z=16&output=embed",
+  "reviewsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Sulky+Salou%C3%ABl",
+  "rating": { "value": 4.6, "count": 377, "source": "Google", "checked": "2026-11-10" },
+  "legal": { "company": "", "legalForm": "", "siret": "", "director": "", "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis" }
+}

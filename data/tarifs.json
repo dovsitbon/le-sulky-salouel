@@ -1,0 +1,26 @@
+{
+  "_note": "Prix en euros. price: null = « à remplir » (affiché « prix au comptoir » sur le site). from: true = « à partir de ». À VALIDER avec le gérant.",
+  "categories": [
+    { "id": "boissons", "items": [
+      { "id": "expresso", "price": null },
+      { "id": "creme", "price": null },
+      { "id": "chocolat", "price": null },
+      { "id": "the", "price": null },
+      { "id": "demi", "price": null },
+      { "id": "soft", "price": null, "from": true }
+    ]},
+    { "id": "jeux", "items": [
+      { "id": "loto", "price": 2.2, "from": true },
+      { "id": "euromillions", "price": 2.5, "from": true },
+      { "id": "grattage", "price": 1, "from": true },
+      { "id": "pmu", "price": null, "from": true }
+    ]},
+    { "id": "relais", "items": [
+      { "id": "retrait", "price": 0 },
+      { "id": "depot", "price": null, "from": true }
+    ]},
+    { "id": "tabac", "items": [
+      { "id": "tabacPrix", "price": null }
+    ]}
+  ]
+}

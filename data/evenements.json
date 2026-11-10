@@ -1,0 +1,26 @@
+{
+  "_note": "Événements affichés sur le site, À CONFIRMER avec le gérant (ce qui est diffusé sur l'écran du bar, ce qui se parie au comptoir). Un événement passé disparaît tout seul le lendemain de sa date. recurring: true = toujours affiché. kind : course | match | soiree.",
+  "items": [
+    {
+      "id": "quinte",
+      "kind": "course",
+      "recurring": true,
+      "fr": { "title": "Le Quinté+ du jour", "when": "Tous les jours", "text": "Le programme et les partants au comptoir, la course sur l'écran du bar. Validez vos tickets jusqu'au départ." },
+      "en": { "title": "Today's Quinté+", "when": "Every day", "text": "The race card and runners at the counter, the race on the bar screen. Place your bets until the off." }
+    },
+    {
+      "id": "amerique-2027",
+      "kind": "course",
+      "date": "2027-01-31",
+      "fr": { "title": "Prix d'Amérique", "when": "", "text": "La plus grande course de trot de l'année, à Vincennes. Venez jouer votre ticket au comptoir le matin." },
+      "en": { "title": "Prix d'Amérique", "when": "", "text": "The biggest trotting race of the year, at Vincennes. Come and place your bet at the counter in the morning." }
+    },
+    {
+      "id": "soiree-a-remplir",
+      "kind": "match",
+      "recurring": true,
+      "fr": { "title": "Les grands matchs", "when": "À remplir", "text": "Les matchs diffusés au bar seront annoncés ici. Programme à venir." },
+      "en": { "title": "Big matches", "when": "To be announced", "text": "Matches shown at the bar will be listed here. Schedule coming soon." }
+    }
+  ]
+}

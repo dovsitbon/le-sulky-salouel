@@ -1,0 +1,247 @@
+@import "tailwindcss";
+
+@theme {
+  /* Couleurs de casaque : vert hippodrome, rouge, or, sur fond crème. */
+  --color-cream: #f6f0e4;
+  --color-cream-deep: #ece3d1;
+  --color-paper: #fbf8f1;
+  --color-green: #1f4d3a;
+  --color-green-deep: #163a2b;
+  --color-red: #b3261e;
+  --color-gold: #c9a14e;
+  /* Or lisible sur vert : 5,3:1 */
+  --color-gold-soft: #dcc189;
+  --color-ink: #181818;
+  /* Texte courant : 7,9:1 sur crème */
+  --color-muted: #4d4a43;
+  --color-line: #d9cfbb;
+
+  --font-body: var(--font-inter), "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-fraunces), Georgia, serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+  body {
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-gold);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-red);
+    outline-offset: 3px;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .display {
+    font-family: var(--font-display);
+    font-weight: 400;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+  .caps {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  .lead {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted);
+  }
+  .wrap {
+    margin-inline: auto;
+    width: 100%;
+    max-width: 76rem;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .wrap {
+      padding-inline: 2.5rem;
+    }
+  }
+  .btn {
+    display: inline-flex;
+    min-height: 3rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    border-radius: 999px;
+    padding-inline: 1.5rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    transition:
+      background-color 0.2s var(--ease-soft),
+      color 0.2s var(--ease-soft),
+      border-color 0.2s var(--ease-soft);
+  }
+  .btn-red {
+    background: var(--color-red);
+    color: #fff;
+  }
+  .btn-red:hover {
+    background: #9a1f18;
+  }
+  .btn-green {
+    background: var(--color-green);
+    color: var(--color-cream);
+  }
+  .btn-green:hover {
+    background: var(--color-green-deep);
+  }
+  .btn-line {
+    border: 1px solid currentColor;
+  }
+  .btn-line:hover {
+    background: color-mix(in srgb, currentColor 8%, transparent);
+  }
+  /* Lisses de l'hippodrome : double filet sous les titres de section */
+  .rail {
+    display: block;
+    width: 3.5rem;
+    height: 5px;
+    border-block: 1px solid var(--color-gold);
+  }
+  /* Emplacement photo vide : cadre pointillé, légende, cheval au trait en filigrane */
+  .slot {
+    position: relative;
+    overflow: hidden;
+    background:
+      repeating-linear-gradient(135deg, transparent 0 14px, color-mix(in srgb, var(--color-green) 4%, transparent) 14px 15px),
+      var(--color-cream-deep);
+  }
+  .slot::after {
+    content: "";
+    position: absolute;
+    inset: 0.75rem;
+    border: 1px dashed color-mix(in srgb, var(--color-green) 35%, transparent);
+    pointer-events: none;
+  }
+  .field {
+    width: 100%;
+    min-height: 3rem;
+    border: 1px solid var(--color-line);
+    border-radius: 0.5rem;
+    background: var(--color-paper);
+    padding: 0.7rem 0.9rem;
+    color: var(--color-ink);
+    transition: border-color 0.2s;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-green);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-green) 15%, transparent);
+  }
+  .field[aria-invalid="true"] {
+    border-color: var(--color-red);
+  }
+}
+
+/* ---------- Ouverture (1,2 s, une fois par session) ---------- */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--color-cream);
+  animation: intro-out 0.3s 0.9s var(--ease-soft) forwards;
+}
+.intro-mark path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: intro-draw 0.55s var(--ease-soft) forwards;
+}
+.intro-mark {
+  animation: intro-trot 0.9s var(--ease-soft) forwards;
+}
+.intro-name {
+  opacity: 0;
+  animation: intro-up 0.3s 0.4s var(--ease-soft) forwards;
+}
+.intro-tag {
+  opacity: 0;
+  animation: intro-up 0.3s 0.58s var(--ease-soft) forwards;
+}
+@keyframes intro-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes intro-trot {
+  from {
+    transform: translateX(-14px);
+  }
+  to {
+    transform: translateX(10px);
+  }
+}
+@keyframes intro-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+/* Sans JavaScript, déjà vue dans la session, ou animations réduites : pas d'ouverture */
+html:not(.js) .intro-curtain,
+html.intro-seen .intro-curtain {
+  display: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .intro-curtain {
+    display: none;
+  }
+}
+
+/* Barre d'actions fixée en bas sur mobile : on laisse la place sous le pied de page */
+@media (max-width: 767px) {
+  body {
+    padding-bottom: calc(4.5rem + env(safe-area-inset-bottom));
+  }
+}

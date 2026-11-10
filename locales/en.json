@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "title": "Bar, tobacconist, PMU betting and parcel point in Salouël, route de Rouen | Le Sulky",
+    "description": "Le Sulky, bar, tobacconist, PMU betting and parcel pickup point at 23 route de Rouen in Salouël, near Amiens. Open from 6 am Monday to Saturday, 7 am to 2 pm on Sundays. Rated 4.6/5 on Google.",
+    "ogAlt": "Le Sulky, bar, tobacconist, PMU and parcel point in Salouël"
+  },
+  "intro": { "skip": "Skip", "tagline": "BAR · TABAC · PMU" },
+  "a11y": { "skip": "Skip to content", "close": "Close message", "menu": "Menu", "closeMenu": "Close menu", "lang": "Language", "newTab": "(new tab)", "logoHome": "Le Sulky, home" },
+  "nav": { "services": "Services", "events": "Events", "infos": "Info", "call": "Call", "directions": "Directions", "prices": "Prices", "contact": "Contact" },
+  "hero": {
+    "kicker": "BAR · TOBACCONIST · PMU · PARCEL POINT · SALOUËL",
+    "title": "Coffee, the races and a warm welcome.",
+    "sub": "Your local bar-tabac at 23 route de Rouen. We open at 6 am Monday to Saturday, and on Sunday mornings until 2 pm.",
+    "ctaDirections": "Directions",
+    "ctaServices": "Our services",
+    "rating": "{value}/5 from {count} Google reviews",
+    "ratingLink": "Read the reviews on Google",
+    "photoPending": "Photo of the shopfront coming soon"
+  },
+  "status": {
+    "open": "Open now, until {time}",
+    "closedToday": "Closed, opens today at {time}",
+    "closedTomorrow": "Closed, opens tomorrow at {time}",
+    "closedNext": "Closed, opens {day} at {time}",
+    "loading": "Today's hours"
+  },
+  "tiles": {
+    "title": "What you'll find at Le Sulky",
+    "items": { "bar": "Bar & coffee", "tabac": "Tobacco", "pmu": "PMU betting", "fdj": "Lottery", "colis": "Parcel point", "presse": "Press & top-ups" }
+  },
+  "strip": {
+    "title": "The essentials",
+    "items": [
+      { "icon": "sunrise", "title": "Open from 6 am", "text": "Monday to Saturday, and 7 am to 2 pm on Sundays." },
+      { "icon": "parcel", "title": "Parcel point", "text": "Collect and drop off parcels during opening hours." },
+      { "icon": "horseshoe", "title": "PMU & FDJ", "text": "Horse racing, Loto, EuroMillions and scratch cards." },
+      { "icon": "parking", "title": "Parking", "text": "To be confirmed: where to park in front of or near the bar." }
+    ]
+  },
+  "services": {
+    "kicker": "Services",
+    "title": "Everything you need, at one counter",
+    "intro": "A quick coffee, your tobacco, a ticket for the Quinté or the parcel waiting for you: we handle it all, without the wait.",
+    "photo": "Photo coming soon",
+    "items": {
+      "bar": { "name": "Bar & coffee", "text": "The first coffee of the day from 6 am, at the counter. Hot and cold drinks all day long, in a friendly neighbourhood bar." },
+      "tabac": { "name": "Tobacco", "text": "Cigarettes, rolling tobacco, cigars and accessories. A local tobacconist, with advice whenever you need it." },
+      "pmu": { "name": "PMU betting", "text": "Today's races at the counter and on the bar screen. The race card, the runners, and a quiet corner to watch the finish." },
+      "fdj": { "name": "Lottery (FDJ)", "text": "Loto, EuroMillions, scratch cards and sports betting: play and check your tickets right at the counter." },
+      "colis": { "name": "Parcel point", "text": "Your parcels wait for you at the bar, handy on your way to work. Drop-offs and returns too, during opening hours." },
+      "presse": { "name": "Press & top-ups", "text": "Newspapers, magazines and phone top-ups. To be confirmed: the exact list with the manager." }
+    },
+    "pricesCta": "See prices"
+  },
+  "events": {
+    "kicker": "Events",
+    "title": "Races and matches not to miss",
+    "intro": "What we follow at the bar and what you can bet on at the counter. The schedule is updated week by week.",
+    "recurring": "All year round",
+    "kinds": { "course": "Race", "match": "Match", "soiree": "Evening" },
+    "empty": "The next schedule is coming soon. Drop by or give us a call to find out what's on."
+  },
+  "blocks": [
+    { "id": "cafe", "photo": "comptoir", "kicker": "Mornings", "title": "Morning coffee, before everyone else", "text": "The shutters go up at 6 am. A strong coffee, the paper, a quick word with the owner, and the day can begin. Right on the route de Rouen, just out of Amiens.", "cta": "Directions" },
+    { "id": "colis", "photo": "colis", "kicker": "Parcel point", "title": "Your parcel, without the queue", "text": "We hand over your parcel in seconds with your pickup code and ID. Open early and until 8 pm on weekdays, so you can come whenever suits you.", "cta": "Opening hours" },
+    { "id": "courses", "photo": "courses", "kicker": "Races & matches", "title": "The races and the big games, among regulars", "text": "Today's Quinté+, the big trotting meetings, the matches that matter: we watch them together, at the counter.", "cta": "See events" }
+  ],
+  "reviews": {
+    "kicker": "Reviews",
+    "title": "What customers say",
+    "text": "Le Sulky is rated {value}/5 from {count} Google reviews. Real reviews from our customers will be shown here, with their permission.",
+    "slot": "Customer review coming soon",
+    "cta": "Read the reviews on Google",
+    "checked": "Rating checked on {date}"
+  },
+  "infos": {
+    "kicker": "Practical info",
+    "title": "Find us",
+    "address": "Address",
+    "hours": "Opening hours",
+    "access": "Getting here",
+    "accessText": "On the route de Rouen in Salouël, a few minutes' drive from central Amiens. To be confirmed: nearest bus stop.",
+    "parking": "Parking",
+    "parkingText": "To be confirmed: spaces in front of or near the bar.",
+    "phone": "Phone",
+    "directions": "Directions",
+    "mapTitle": "Le Sulky on the map, 23 route de Rouen, Salouël",
+    "mapButton": "Show the map",
+    "mapNote": "The map is provided by Google Maps.",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "range": "{from} to {to}",
+    "closed": "Closed",
+    "toConfirm": "Bank holiday hours are announced at the top of the site."
+  },
+  "faq": {
+    "kicker": "FAQ",
+    "title": "Before you drop by",
+    "items": [
+      { "q": "What are your opening hours?", "a": "Monday to Saturday from 6 am to 8 pm, and Sunday from 7 am to 2 pm. Bank holidays and exceptional closures are announced in the banner at the top of the site." },
+      { "q": "How do I collect my parcel?", "a": "Come to the counter with the pickup code you received by text or email, and an ID. If someone collects it for you, they need the code, their own ID and, depending on the carrier, a signed authorisation." },
+      { "q": "How long will my parcel be kept?", "a": "The holding period depends on the carrier and is shown in your pickup message. After that, the parcel goes back to the sender: if in doubt, give us a call." },
+      { "q": "Can I pay by card?", "a": "Yes, cards are accepted. For some regulated purchases (tobacco, games), ask at the counter whether there is a minimum amount." },
+      { "q": "Which games can I play here?", "a": "PMU horse racing bets and FDJ games: Loto, EuroMillions, scratch cards and sports betting. Gambling is forbidden to under-18s." },
+      { "q": "Can we book the bar for drinks or a birthday?", "a": "Let's talk about it. Send us a message with the contact form or call 03 22 51 75 50, and we'll see what we can do." }
+    ]
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "A question? Write to us",
+    "intro": "About a parcel, an event or drinks with friends, leave us a message. Calling is still the quickest way.",
+    "call": "Call 03 22 51 75 50",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "subject": "Your request",
+    "subjects": { "question": "A question", "privatisation": "Drinks or private event", "colis": "A parcel", "autre": "Other" },
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending…",
+    "ok": "Thank you, your message has been sent. We'll get back to you soon.",
+    "okNoMail": "Your message was received, but email sending isn't switched on yet. For a quick answer, please call us on 03 22 51 75 50.",
+    "error": "Your message couldn't be sent. Please check the fields or call us on 03 22 51 75 50.",
+    "required": "required",
+    "invalidPhone": "Phone number looks incomplete",
+    "invalidEmail": "Email address looks incomplete",
+    "privacy": "Your details are only used to reply to you. They are not stored on this site or passed on to anyone.",
+    "mail": { "subject": "Website message", "title": "New message from the website", "name": "Name", "phone": "Phone", "email": "Email", "subject2": "Request", "message": "Message", "lang": "Customer language" }
+  },
+  "footer": {
+    "tagline": "Bar, tobacconist, PMU betting and parcel point in Salouël, route de Rouen.",
+    "pages": "Pages",
+    "legal": "Legal notice",
+    "rights": "Le Sulky",
+    "hours": "Opening hours"
+  },
+  "photo": { "pending": "Photo coming soon", "slots": { "hero": "Shopfront or counter", "facade": "The shopfront", "comptoir": "The counter in the morning", "bar": "The bar", "tabac": "The tobacco counter", "pmu": "The racing screen", "fdj": "The games corner", "colis": "The parcel point", "presse": "The press stand", "courses": "Racing on screen", "equipe": "The team" } },
+  "alt": {
+    "hero": "The front of Le Sulky, 23 route de Rouen in Salouël",
+    "facade": "The front of Le Sulky bar-tabac in Salouël",
+    "comptoir": "The counter at Le Sulky in the morning",
+    "bar": "The bar at Le Sulky",
+    "tabac": "The tobacco counter at Le Sulky",
+    "pmu": "The PMU racing screen at Le Sulky",
+    "fdj": "The FDJ games corner at Le Sulky",
+    "colis": "The parcel pickup point at Le Sulky",
+    "presse": "Newspapers at Le Sulky",
+    "courses": "A trotting race on the bar screen",
+    "equipe": "The Le Sulky team at the counter"
+  },
+  "tarifs": {
+    "intro": "Counter prices, so you know what to expect. When the price varies, we show \"from\".",
+    "from": "from",
+    "atCounter": "price at the counter",
+    "free": "free",
+    "note": "Prices include VAT and may change. Tobacco prices are set by the French state and displayed in store. Gambling is forbidden to under-18s.",
+    "categories": { "boissons": "At the bar", "jeux": "Games", "relais": "Parcel point", "tabac": "Tobacco" },
+    "items": {
+      "expresso": { "name": "Espresso", "desc": "" },
+      "creme": { "name": "White coffee", "desc": "" },
+      "chocolat": { "name": "Hot chocolate", "desc": "" },
+      "the": { "name": "Tea or herbal tea", "desc": "" },
+      "demi": { "name": "Half of draught beer", "desc": "" },
+      "soft": { "name": "Soft drinks and juices", "desc": "" },
+      "loto": { "name": "Loto", "desc": "one grid" },
+      "euromillions": { "name": "EuroMillions", "desc": "one grid" },
+      "grattage": { "name": "Scratch cards", "desc": "depending on the game" },
+      "pmu": { "name": "PMU horse racing bets", "desc": "depending on the bet" },
+      "retrait": { "name": "Parcel collection", "desc": "with your code and an ID" },
+      "depot": { "name": "Parcel drop-off", "desc": "label paid online with the carrier" },
+      "tabacPrix": { "name": "Tobacco and cigarettes", "desc": "prices set by the state" }
+    }
+  },
+  "pages": {
+    "bar": {
+      "title": "Bar-tabac in Salouël",
+      "metaTitle": "Bar-tabac in Salouël, route de Rouen, open from 6 am | Le Sulky",
+      "description": "Le Sulky, your bar-tabac in Salouël at 23 route de Rouen: coffee from 6 am, tobacco, PMU, FDJ and parcel pickup. A few minutes from Amiens.",
+      "kicker": "Salouël · route de Rouen",
+      "h1": "Your local bar-tabac in Salouël",
+      "intro": "At 23 route de Rouen, Le Sulky is the local bar-tabac for Salouël and the south-west of Amiens. We open at 6 am Monday to Saturday for the first coffee of the day, and on Sunday mornings until 2 pm.",
+      "sections": [
+        { "title": "A real neighbourhood bar", "text": "Here, people say hello. The owner and the manager know everyone's habits: the strong morning coffee, the paper put aside, the Quinté ticket. A local shop the way we like them, simple and friendly." },
+        { "title": "Tobacco, games and services", "text": "Tobacco and accessories, PMU horse racing bets, FDJ games, press and top-ups, and a pickup point for your parcels. All at the same counter." },
+        { "title": "Easy to reach from Amiens", "text": "Le Sulky is on the route de Rouen, the road linking Amiens and Salouël: handy on your way to and from work." }
+      ],
+      "cta": "Directions"
+    },
+    "relais": {
+      "title": "Parcel pickup point in Salouël",
+      "metaTitle": "Parcel pickup point in Salouël, open from 6 am | Le Sulky",
+      "description": "Collect and drop off parcels at Le Sulky, a pickup point at 23 route de Rouen in Salouël. Open from 6 am Monday to Saturday and on Sunday mornings.",
+      "kicker": "Parcel point · Salouël",
+      "h1": "Your parcel pickup point in Salouël",
+      "intro": "Choose Le Sulky as your pickup point when you order online: your parcel waits for you at 23 route de Rouen, from 6 am to 8 pm Monday to Saturday and 7 am to 2 pm on Sundays.",
+      "sections": [
+        { "title": "Collecting a parcel", "text": "As soon as you get the notification that your parcel has arrived, drop by with your pickup code and an ID. We hand it over in seconds." },
+        { "title": "Dropping off or returning a parcel", "text": "Pack your parcel with the label paid online with the carrier, then leave it at the counter. Keep your proof of drop-off." },
+        { "title": "Which carriers?", "text": "To be confirmed: the parcel networks accepted at Le Sulky. In the meantime, give us a call to check before choosing the pickup point." }
+      ],
+      "cta": "Directions"
+    },
+    "tarifs": {
+      "title": "Prices",
+      "metaTitle": "Bar, games and parcel point prices | Le Sulky, Salouël",
+      "description": "Prices at Le Sulky in Salouël: coffee, drinks, FDJ and PMU games, parcel point. Counter prices, from.",
+      "kicker": "Prices",
+      "h1": "Our prices"
+    },
+    "legal": {
+      "title": "Legal notice",
+      "metaTitle": "Legal notice | Le Sulky, Salouël",
+      "description": "Legal notice for the Le Sulky website, bar-tabac in Salouël.",
+      "kicker": "Information",
+      "h1": "Legal notice",
+      "editor": "Site publisher",
+      "company": "Company name",
+      "siret": "SIRET",
+      "director": "Publication director",
+      "host": "Host",
+      "data": "Personal data",
+      "dataText": "The contact form sends your message by email to Le Sulky. Your details are only used to reply to you; they are not stored on this site. You can ask for them to be deleted by calling the bar.",
+      "cookies": "Cookies",
+      "cookiesText": "This site uses no tracking or advertising cookies. A technical cookie only remembers your chosen language. The Google map only loads if you click to show it.",
+      "photos": "Photos",
+      "photosText": "The photos on this site show the shop and belong to Le Sulky.",
+      "toFill": "to be completed"
+    }
+  }
+}

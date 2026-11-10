@@ -1,0 +1,11 @@
+{
+  "_note": "Liste À CONFIRMER avec le gérant. confirmed: false affiche la mention « à confirmer » dans CONTENU.md (pas sur le site). Les textes sont dans locales/*.json → services.items.<id>.",
+  "items": [
+    { "id": "bar", "icon": "cup", "photo": "bar", "confirmed": true },
+    { "id": "tabac", "icon": "leaf", "photo": "tabac", "confirmed": true },
+    { "id": "pmu", "icon": "horseshoe", "photo": "pmu", "confirmed": true },
+    { "id": "fdj", "icon": "ticket", "photo": "fdj", "confirmed": false },
+    { "id": "colis", "icon": "parcel", "photo": "colis", "confirmed": true },
+    { "id": "presse", "icon": "paper", "photo": "presse", "confirmed": false }
+  ]
+}

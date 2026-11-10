@@ -1,0 +1,7 @@
+{
+  "_note": "Bandeau du haut. Le premier message actif dont les dates couvrent aujourd'hui s'affiche, sinon le message par défaut. Exemple de fermeture : { \"id\": \"conges-2027\", \"from\": \"2027-08-01\", \"to\": \"2027-08-15\", \"fr\": \"Fermé du 1er au 15 août, réouverture le lundi 16 à 6 h.\", \"en\": \"Closed 1–15 August, back on Monday 16th at 6 am.\" }",
+  "default": { "id": "ouverture", "fr": "Ouvert dès 6 h du lundi au samedi, et le dimanche de 7 h à 14 h.", "en": "Open from 6 am Monday to Saturday, and 7 am to 2 pm on Sundays." },
+  "items": [
+    { "id": "noel-2026", "from": "2026-12-01", "to": "2026-12-26", "fr": "Horaires des fêtes : à remplir (24, 25 et 31 décembre).", "en": "Holiday opening hours: to be confirmed (24, 25 and 31 December).", "active": false }
+  ]
+}

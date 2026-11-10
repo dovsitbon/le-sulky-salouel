@@ -1,0 +1,14 @@
+{
+  "_note": "Photos du site, une ligne par emplacement. Déposez la photo (JPG) dans public/media/<dossier>/ puis indiquez son chemin ici, ex. \"/media/hero/facade-matin.jpg\", avec sa largeur et sa hauteur. null = emplacement vide (cadre « photo à venir »). Ne pas mettre en avant les visages des clients.",
+  "hero": null,
+  "facade": null,
+  "comptoir": null,
+  "bar": null,
+  "tabac": null,
+  "pmu": null,
+  "fdj": null,
+  "colis": null,
+  "presse": null,
+  "courses": null,
+  "equipe": null
+}
