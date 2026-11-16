@@ -57,7 +57,7 @@ function Hero({ d, lang }: { d: Dict; lang: Locale }) {
       {photo ? (
         <>
           <Image src={photo.src} alt={d.alt.hero} fill priority sizes="100vw" quality={70} className="object-cover" />
-          <div className="absolute inset-0 bg-[linear-gradient(to_top,rgb(22_58_43/0.92),rgb(22_58_43/0.35)_55%,rgb(22_58_43/0.15))]" />
+          <div className="absolute inset-0 bg-[linear-gradient(to_top,rgb(22_58_43/0.94),rgb(22_58_43/0.72)_45%,rgb(22_58_43/0.35))]" />
         </>
       ) : (
         // En attendant la photo de la façade : la piste de l'hippodrome et le sulky, au trait or
@@ -364,7 +364,7 @@ function Infos({ d, lang }: { d: Dict; lang: Locale }) {
           </div>
         </div>
         <div className="flex flex-col gap-5">
-          <PhotoSlot id="facade" d={d} className="aspect-[16/10]" />
+          <PhotoSlot id="facade" d={d} className="aspect-[16/10]" position="50% 18%" />
           <MapEmbed className="aspect-[16/10] lg:flex-1" />
         </div>
       </div>

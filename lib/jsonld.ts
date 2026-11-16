@@ -16,7 +16,7 @@ function business(lang: Locale) {
     name: site.name,
     description: d.meta.description,
     url: `${site.url}/${lang}`,
-    image: [`${site.url}/og.jpg`],
+    image: [`${site.url}/media/hero/bar-comptoir-salle-renovee.webp`, `${site.url}/media/facade/enseigne-pmu-presse-terrasse.webp`, `${site.url}/media/bar/comptoir-et-rayon-tabac.webp`, `${site.url}/og.jpg`],
     logo: `${site.url}/logo.svg`,
     telephone: site.phoneIntl,
     priceRange: "€",

@@ -78,7 +78,7 @@ function LocalPage({ id, d, lang }: { id: "bar" | "relais"; d: Dict; lang: Local
           ))}
         </div>
         <aside className="space-y-8">
-          <PhotoSlot id={id === "bar" ? "comptoir" : "colis"} d={d} className="aspect-[4/3]" />
+          <PhotoSlot id={id === "bar" ? "interieur" : "colis"} d={d} className="aspect-[4/3]" />
           <div className="border border-line bg-paper p-6">
             <h2 className="caps text-[0.6875rem] text-red">{d.infos.hours}</h2>
             <HoursTable lang={lang} d={d} className="mt-3" />

@@ -1,14 +1,62 @@
 {
-  "_note": "Photos du site, une ligne par emplacement. Déposez la photo (JPG) dans public/media/<dossier>/ puis indiquez son chemin ici, ex. \"/media/hero/facade-matin.jpg\", avec sa largeur et sa hauteur. null = emplacement vide (cadre « photo à venir »). Ne pas mettre en avant les visages des clients.",
-  "hero": null,
-  "facade": null,
-  "comptoir": null,
-  "bar": null,
-  "tabac": null,
-  "pmu": null,
-  "fdj": null,
-  "colis": null,
-  "presse": null,
-  "courses": null,
+  "_note": "Photos du site, une ligne par emplacement (dimensions réelles). stock: true = photo libre de droits (Unsplash), présentée comme illustration, jamais comme le commerce. null = emplacement vide (cadre « photo à venir »). Sources et licences : PHOTOS-SOURCES.md.",
+  "hero": {
+    "src": "/media/hero/bar-comptoir-salle-renovee.webp",
+    "width": 1600,
+    "height": 1200
+  },
+  "interieur": {
+    "src": "/media/bar/comptoir-et-rayon-tabac.webp",
+    "width": 1600,
+    "height": 1200
+  },
+  "facade": {
+    "src": "/media/facade/enseigne-pmu-presse-terrasse.webp",
+    "width": 924,
+    "height": 2000
+  },
+  "comptoir": {
+    "src": "/media/bar/cafe-au-comptoir.webp",
+    "width": 1500,
+    "height": 1000
+  },
+  "bar": {
+    "src": "/media/bar/terrasse-biere-pression.webp",
+    "width": 948,
+    "height": 2000
+  },
+  "tabac": {
+    "src": "/media/services/caisse-et-rayon-tabac.webp",
+    "width": 924,
+    "height": 2000
+  },
+  "pmu": {
+    "src": "/media/bar/salle-ecran-tv.webp",
+    "width": 1600,
+    "height": 1200
+  },
+  "fdj": {
+    "src": "/media/services/boules-loto-unsplash.webp",
+    "width": 1920,
+    "height": 1280,
+    "stock": true
+  },
+  "colis": {
+    "src": "/media/services/colis-carton-unsplash.webp",
+    "width": 1333,
+    "height": 2000,
+    "stock": true
+  },
+  "presse": {
+    "src": "/media/services/presse-magazines.webp",
+    "width": 660,
+    "height": 1100
+  },
+  "courses": {
+    "src": "/media/services/course-de-trot-unsplash.webp",
+    "width": 1920,
+    "height": 1280,
+    "stock": true
+  },
   "equipe": null
 }
